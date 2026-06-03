@@ -3,99 +3,707 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valorant - Portal Oficial</title>
+    <meta name="description" content="Guías tácticas y optimización para mejorar tu rendimiento en Valorant con roles de agentes y configuraciones recomendadas.">
+    <title>VALORANT // Hub de Rendimiento y Agentes</title>
+    <link rel="stylesheet" href="/estilos.css">
 </head>
 <body>
+
+    <!-- Encabezado con estética táctica -->
     <header>
-        <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/f320567c84ae28aec190e2f3002ce8c3642bd08a-1920x1080.jpg?accountingTag=VAL&auto=format&fit=fill&q=80&w=1184" alt="Logo Valorant" style="max-width: 200px; height: auto;">
-        <h1>VALORANT</h1>
-        <p>Táctico. Competitivo. Libre para jugar.</p>
+        <div class="logo">VALORANT // HUB</div>
+        <nav>
+            <ul>
+                <li><a href="#agentes">Agentes</a></li>
+                <li><a href="#armas">Armas</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#mapas">Mapas</a></li>
+                <li><a href="#config">Optimización</a></li>
+                <li><a href="#meta">Meta</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-juego">Sobre el Juego</a></li>
-            <li><a href="#agentes">Agentes</a></li>
-            <li><a href="#mapas">Mapas</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-
+    <!-- Contenido Principal -->
     <main>
-        <section id="inicio">
-            <h2>Bienvenido a VALORANT</h2>
-            <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/d47ffdc62ae92c2190b27b06e4708f45cda23a16-1920x1080.jpg?accountingTag=LoL" alt="Agentes de Valorant" style="max-width: 100%; height: auto; margin: 20px 0;">
-            <p>Un juego táctico de disparos 5v5 donde cada acción cuenta. Juega gratis en PC.</p>
-            <p>Domina los agentes, controla el mapa y asegura la victoria con tu equipo.</p>
+        <!-- Sección de Introducción -->
+        <section id="hero">
+            <h1>¿TIENES LO QUE SE NECESITA? DEMUÉSTRATE LO QUE ERES</h1>
+            <p>Guías tácticas, roles de agentes y configuraciones avanzadas de hardware para llevar tu puntería y rendimiento al siguiente nivel.</p>
         </section>
 
-        <section id="sobre-juego">
-            <h2>Sobre el Juego</h2>
-            <p><strong>VALORANT</strong> es un juego competitivo de disparos táctico desarrollado por Riot Games.</p>
-            
-            <h3>Características Principales:</h3>
-            <ul>
-                <li>Juego 5v5 basado en objetivos</li>
-                <li>Equipo único de Agentes con habilidades especiales</li>
-                <li>Sistema de economía estratégica</li>
-                <li>Mapas diseñados para el juego competitivo</li>
-                <li>Soporte a 240 FPS para jugadores de alto rendimiento</li>
-                <li>Ranking competitivo y profesional</li>
-                <li>Completamente gratuito</li>
-            </ul>
-        </section>
-
+        <!-- Sección de Agentes con Tabs -->
         <section id="agentes">
-            <h2>Agentes</h2>
-            <p>Cada Agente tiene un conjunto único de habilidades. Hay cuatro roles principales:</p>
+            <h2>ROLES DE AGENTES</h2>
             
-            <h3>Initiator (Iniciador)</h3>
-            <p>Especializados en recopilar información y preparar el camino para el ataque.</p>
-            <p>Ejemplo: Sova, Breach, Skye</p>
+            <!-- Pestañas de Roles -->
+            <div class="tabs-rol" role="tablist" aria-label="Roles de agentes">
+                <button type="button" class="tab-btn active" data-tab="duelistas" aria-controls="duelistas" aria-selected="true">DUELISTAS</button>
+                <button type="button" class="tab-btn" data-tab="iniciadores" aria-controls="iniciadores">INICIADORES</button>
+                <button type="button" class="tab-btn" data-tab="controladores" aria-controls="controladores">CONTROLADORES</button>
+                <button type="button" class="tab-btn" data-tab="centinelas" aria-controls="centinelas">CENTINELAS</button>
+            </div>
 
-            <h3>Sentinel (Centinela)</h3>
-            <p>Defensores que protegen el sitio con trampas y controles de zonas.</p>
-            <p>Ejemplo: Cypher, Killjoy, Chamber</p>
+            <!-- Contenido DUELISTAS -->
+            <div class="tab-content active" id="duelistas">
+                <div class="agente-lista">
+                    <div class="agente-item">
+                        <h4>JETT</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Nebulina Enrollada:</strong> Crea una cortina de humo temporal | <span class="duracion">⏱️ 4.4s</span></p>
+                            <p><strong>Habilidad E - Viento Ascendente:</strong> Impulso vertical para movilidad táctica | <span class="duracion">⏱️ Inmediato</span></p>
+                            <p><strong>Habilidad C - Caída Controlada:</strong> Controla la velocidad de caída | <span class="duracion">⏱️ Permanente</span></p>
+                            <p><strong>Ultimate - Tormenta Cortante:</strong> Genera cuchillas voladoras de alto daño | <span class="duracion">⏱️ 6s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>REYNA</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Sesgo:</strong> Ojos emisarios invisibles que marcas enemigos | <span class="duracion">⏱️ 2.25s</span></p>
+                            <p><strong>Habilidad E - Devorar:</strong> Consume almas para recuperar vida | <span class="duracion">⏱️ Inmediato</span></p>
+                            <p><strong>Habilidad C - Disolver:</strong> Se vuelve invisible temporalmente | <span class="duracion">⏱️ 1.75s</span></p>
+                            <p><strong>Ultimate - Empress:</strong> Mejora velocidad, visión y poder de fuego | <span class="duracion">⏱️ 25s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>NEON</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Destello Rápido:</strong> Dispara rayo rápido de energía | <span class="duracion">⏱️ 1.5s</span></p>
+                            <p><strong>Habilidad E - Esprintar Sobrerrodeada:</strong> Acelera significativamente la velocidad | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Habilidad C - Pared de Banda:</strong> Crea barrera de energía móvil | <span class="duracion">⏱️ 5.5s</span></p>
+                            <p><strong>Ultimate - Overdrive:</strong> Poder de fuego aumentado masivamente | <span class="duracion">⏱️ 6s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>YORU</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Fissura de Puerta:</strong> Crea portal dimensional | <span class="duracion">⏱️ Hasta 2.25s</span></p>
+                            <p><strong>Habilidad E - Punto Ciego:</strong> Genera punto ciego desorientador | <span class="duracion">⏱️ 1.5s</span></p>
+                            <p><strong>Habilidad C - Engaño:</strong> Crea clon de movimiento falso | <span class="duracion">⏱️ 1s</span></p>
+                            <p><strong>Ultimate - Dimensión Desgarrada:</strong> Invulnerabilidad y teleportación garantizada | <span class="duracion">⏱️ 8s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>ISO</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Burbuja Redonda:</strong> Crea esfera protectora temporal | <span class="duracion">⏱️ 4.5s</span></p>
+                            <p><strong>Habilidad E - Pared de Energía:</strong> Barrera defensiva de energía | <span class="duracion">⏱️ 5s</span></p>
+                            <p><strong>Habilidad C - Redondel:</strong> Rodillo de energía defensivo | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Ultimate - Destello Roto:</strong> Salto dimensional con daño | <span class="duracion">⏱️ 4s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>ASKA</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Presa Voladora:</strong> Crea dron explorador | <span class="duracion">⏱️ 5s</span></p>
+                            <p><strong>Habilidad E - Impacto:</strong> Proyectil con daño explosivo | <span class="duracion">⏱️ Inmediato</span></p>
+                            <p><strong>Habilidad C - Montura:</strong> Potencia de fuego aumentada | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Ultimate - Transformación:</strong> Poder completo activado | <span class="duracion">⏱️ 10s</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Duelist (Duelista)</h3>
-            <p>Agresivos, con habilidades de autodefensa para entrar en combate.</p>
-            <p>Ejemplo: Jett, Reyna, Raze</p>
+            <!-- Contenido INICIADORES -->
+            <div class="tab-content" id="iniciadores">
+                <div class="agente-lista">
+                    <div class="agente-item">
+                        <h4>SOVA</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Flecha Rastreadora:</strong> Flecha que revela enemigos | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Habilidad E - Dron Explorador:</strong> Dron teledirigido con cámara | <span class="duracion">⏱️ 8s</span></p>
+                            <p><strong>Habilidad C - Pulso Radar:</strong> Pulso de escaneo de proximidad | <span class="duracion">⏱️ 2s</span></p>
+                            <p><strong>Ultimate - Barrido de Visión:</strong> Escaneo completo del mapa | <span class="duracion">⏱️ 10s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>FADE</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Secretos Guardados:</strong> Recopilador de información invisible | <span class="duracion">⏱️ 6s</span></p>
+                            <p><strong>Habilidad E - Aparición:</strong> Proyectil revelador de enemigos | <span class="duracion">⏱️ 2.25s</span></p>
+                            <p><strong>Habilidad C - Terror Nocturno:</strong> Visión nocturna táctica | <span class="duracion">⏱️ 4s</span></p>
+                            <p><strong>Ultimate - Pesadilla:</strong> Revelación completa del área | <span class="duracion">⏱️ 12s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>GEKKO</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Picadura de Gecko:</strong> Lanzar huevos con efecto | <span class="duracion">⏱️ 1.5s</span></p>
+                            <p><strong>Habilidad E - Saliva:</strong> Disolver paredes enemigas | <span class="duracion">⏱️ 5s</span></p>
+                            <p><strong>Habilidad C - Visión Térmica:</strong> Detecta calor enemigo | <span class="duracion">⏱️ 6s</span></p>
+                            <p><strong>Ultimate - Gecko Colosal:</strong> Llamada de criatura poderosa | <span class="duracion">⏱️ 8s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>SKYE</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Compañero Agresivo:</strong> Animales de combate aliados | <span class="duracion">⏱️ 4.5s</span></p>
+                            <p><strong>Habilidad E - Rastreador Físico:</strong> Rastrear enemigos activos | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Habilidad C - Visión Animal:</strong> Percepción mejorada de zona | <span class="duracion">⏱️ 7s</span></p>
+                            <p><strong>Ultimate - Manada Salvaje:</strong> Convoca múltiples criaturas | <span class="duracion">⏱️ 10s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>KAY/O</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Proyectil de Energía:</strong> Dispara bola de explosión | <span class="duracion">⏱️ Inmediato</span></p>
+                            <p><strong>Habilidad E - Campo Nulo:</strong> Suprime habilidades enemigas | <span class="duracion">⏱️ 5s</span></p>
+                            <p><strong>Habilidad C - Recarga Táctica:</strong> Carga rápida de armas | <span class="duracion">⏱️ 2s</span></p>
+                            <p><strong>Ultimate - Explosión Nulificadora:</strong> Anula todo en el área | <span class="duracion">⏱️ 15s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>DEADLOCK</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Trampa Territorial:</strong> Crea zona restringida | <span class="duracion">⏱️ 6s</span></p>
+                            <p><strong>Habilidad E - Alarma:</strong> Sistema de alerta de proximidad | <span class="duracion">⏱️ Permanente</span></p>
+                            <p><strong>Habilidad C - Sensor Activo:</strong> Detecta movimiento cercano | <span class="duracion">⏱️ 4.5s</span></p>
+                            <p><strong>Ultimate - Gravitón Explosivo:</strong> Colapso gravitacional devastador | <span class="duracion">⏱️ 8s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>BRIGHT</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Flash Ofensivo:</strong> Destellos cegadores ofensivos | <span class="duracion">⏱️ 2s</span></p>
+                            <p><strong>Habilidad E - Recolector de Focos:</strong> Recolecta información visual | <span class="duracion">⏱️ 5s</span></p>
+                            <p><strong>Habilidad C - Linterna Táctica:</strong> Iluminación y visión mejorada | <span class="duracion">⏱️ 6s</span></p>
+                            <p><strong>Ultimate - Faro Cegador:</strong> Cegera masiva en área | <span class="duracion">⏱️ 12s</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Controller (Controlador)</h3>
-            <p>Dominan el mapa con humo y niebla para controlar el flujo del juego.</p>
-            <p>Ejemplo: Viper, Brimstone, Astra</p>
+            <!-- Contenido CONTROLADORES -->
+            <div class="tab-content" id="controladores">
+                <div class="agente-lista">
+                    <div class="agente-item">
+                        <h4>OMEN</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Proyección de Sombra:</strong> Crea cortina de humo | <span class="duracion">⏱️ 15s</span></p>
+                            <p><strong>Habilidad E - Paranoia:</strong> Pulso oscuro desorientador | <span class="duracion">⏱️ Inmediato</span></p>
+                            <p><strong>Habilidad C - Cobertura Oscura:</strong> Humo temporal en zona | <span class="duracion">⏱️ 14.25s</span></p>
+                            <p><strong>Ultimate - Mirada del Vacío:</strong> Teletransporte a través del mapa | <span class="duracion">⏱️ Inmediato</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>VIPER</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Columna de Veneno:</strong> Columna de veneno vertical | <span class="duracion">⏱️ 1.45s</span></p>
+                            <p><strong>Habilidad E - Nube Neurotóxica:</strong> Gas venenoso en zona | <span class="duracion">⏱️ 9.5s</span></p>
+                            <p><strong>Habilidad C - Muro de Veneno:</strong> Muro largo de toxinas | <span class="duracion">⏱️ 8s</span></p>
+                            <p><strong>Ultimate - Pit Viper:</strong> Zona de veneno masivo | <span class="duracion">⏱️ 12s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>CLOVE</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Efímero:</strong> Proyectil de distracción | <span class="duracion">⏱️ 2.5s</span></p>
+                            <p><strong>Habilidad E - Médium:</strong> Acceso a información temporal | <span class="duracion">⏱️ 4s</span></p>
+                            <p><strong>Habilidad C - Manifestación:</strong> Aparición espectral temporal | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Ultimate - Resurrección:</strong> Revive en el campo de batalla | <span class="duracion">⏱️ Inmediato</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>BRIMSTONE</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Stim Beacon:</strong> Faro de estimulación ofensiva | <span class="duracion">⏱️ 12s</span></p>
+                            <p><strong>Habilidad E - Sky Smoke:</strong> Cortina de humo aérea | <span class="duracion">⏱️ 15.25s</span></p>
+                            <p><strong>Habilidad C - Incendiary:</strong> Granadas incendiarias de fuego | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Ultimate - Orbital Strike:</strong> Ataque orbital masivo | <span class="duracion">⏱️ 5s</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contenido CENTINELAS -->
+            <div class="tab-content" id="centinelas">
+                <div class="agente-lista">
+                    <div class="agente-item">
+                        <h4>SAGE</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Barrera Curativa:</strong> Sana aliados en zona | <span class="duracion">⏱️ 2.5s</span></p>
+                            <p><strong>Habilidad E - Pared de Hielo:</strong> Barrera de hielo destructible | <span class="duracion">⏱️ 5.5s</span></p>
+                            <p><strong>Habilidad C - Lentitud:</strong> Ralentiza movimiento enemigo | <span class="duracion">⏱️ 6.5s</span></p>
+                            <p><strong>Ultimate - Resurrección:</strong> Revive aliado caído | <span class="duracion">⏱️ Inmediato</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>CYPHER</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Trampa de Espías:</strong> Trampa reveladora de movimiento | <span class="duracion">⏱️ Permanente</span></p>
+                            <p><strong>Habilidad E - Cámara de Espionaje:</strong> Cámara con visión remota | <span class="duracion">⏱️ Permanente</span></p>
+                            <p><strong>Habilidad C - Muro Neural:</strong> Muro bloqueador de visión | <span class="duracion">⏱️ 5.5s</span></p>
+                            <p><strong>Ultimate - Radiografía:</strong> Revela todos los enemigos | <span class="duracion">⏱️ 6s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>KILLJOY</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Alarma Bot:</strong> Bot de vigilancia defensiva | <span class="duracion">⏱️ 7s</span></p>
+                            <p><strong>Habilidad E - Granadas:</strong> Lanzador de granada defensiva | <span class="duracion">⏱️ 4s</span></p>
+                            <p><strong>Habilidad C - Turret:</strong> Torreta automática defensiva | <span class="duracion">⏱️ Permanente</span></p>
+                            <p><strong>Ultimate - Lockdown:</strong> Paraliza enemigos en zona | <span class="duracion">⏱️ 8s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>CHAMBER</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Teleport Anchor:</strong> Punto de teletransporte defensivo | <span class="duracion">⏱️ Permanente</span></p>
+                            <p><strong>Habilidad E - Rendezvous:</strong> Crea zona de protección | <span class="duracion">⏱️ 6s</span></p>
+                            <p><strong>Habilidad C - Pistola Táctica:</strong> Arma de protección personal | <span class="duracion">⏱️ Limitado</span></p>
+                            <p><strong>Ultimate - Tour de Garde:</strong> Ataque defensivo masivo | <span class="duracion">⏱️ 10s</span></p>
+                        </div>
+                    </div>
+                    <div class="agente-item">
+                        <h4>TEJO</h4>
+                        <div class="habilidades">
+                            <p><strong>Habilidad Q - Pared Volcánica:</strong> Barrera defensiva de lava | <span class="duracion">⏱️ 5.5s</span></p>
+                            <p><strong>Habilidad E - Lava Ardiente:</strong> Zona de daño por fuego | <span class="duracion">⏱️ 4s</span></p>
+                            <p><strong>Habilidad C - Roca Ancestral:</strong> Proyectil defensivo | <span class="duracion">⏱️ 3s</span></p>
+                            <p><strong>Ultimate - Erupción Volcánica:</strong> Explosión masiva de lava | <span class="duracion">⏱️ 12s</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
+        <!-- Sección de Armas -->
+        <section id="armas">
+            <h2>ARSENAL DE ARMAS</h2>
+            <div class="armas-contenedor">
+                <!-- Pistolas -->
+                <div class="categoria-armas">
+                    <h3 class="categoria-titulo">PISTOLAS</h3>
+                    <div class="armas-grid">
+                        <div class="arma-card">
+                            <div class="arma-nombre">CLASSIC</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 35%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 75%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 45%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 60%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arma-card">
+                            <div class="arma-nombre">SHORTY</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 85%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 45%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 20%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 75%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arma-card">
+                            <div class="arma-nombre">FRENZY</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 40%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 90%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 35%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 70%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rifles -->
+                <div class="categoria-armas">
+                    <h3 class="categoria-titulo">RIFLES</h3>
+                    <div class="armas-grid">
+                        <div class="arma-card">
+                            <div class="arma-nombre">VANDAL</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 80%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 50%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 70%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 45%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arma-card">
+                            <div class="arma-nombre">PHANTOM</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 75%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 65%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 75%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 55%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shotguns -->
+                <div class="categoria-armas">
+                    <h3 class="categoria-titulo">ESCOPETAS</h3>
+                    <div class="armas-grid">
+                        <div class="arma-card">
+                            <div class="arma-nombre">BUCKY</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 90%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 40%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 25%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 50%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arma-card">
+                            <div class="arma-nombre">JUDGE</div>
+                            <div class="arma-stats">
+                                <div class="stat-item">
+                                    <span class="stat-label">Daño</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 88%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Cadencia</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 55%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Precisión</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 30%"></div></div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-label">Carrera</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width: 60%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Tienda de Armas -->
+        <section id="tienda">
+            <h2>TIENDA DE ARMAS</h2>
+            <div class="tienda-contenedor">
+                <div class="arma-tienda">
+                    <div class="arma-tienda-header">
+                        <span class="arma-tienda-nombre">VANDAL</span>
+                        <span class="arma-tienda-skin">PRIME</span>
+                    </div>
+                    <div class="arma-tienda-precio">2450 CRÉDITOS</div>
+                    <div class="arma-tienda-stock">
+                        <span class="stock-disponible">✓ DISPONIBLE</span>
+                    </div>
+                    <div class="arma-tienda-descuento">
+                        <span class="badge-nuevo">NUEVO</span>
+                    </div>
+                </div>
+
+                <div class="arma-tienda">
+                    <div class="arma-tienda-header">
+                        <span class="arma-tienda-nombre">PHANTOM</span>
+                        <span class="arma-tienda-skin">NEBULA</span>
+                    </div>
+                    <div class="arma-tienda-precio">2100 CRÉDITOS</div>
+                    <div class="arma-tienda-stock">
+                        <span class="stock-disponible">✓ DISPONIBLE</span>
+                    </div>
+                    <div class="arma-tienda-descuento">
+                        <span class="badge-desc">-20%</span>
+                    </div>
+                </div>
+
+                <div class="arma-tienda">
+                    <div class="arma-tienda-header">
+                        <span class="arma-tienda-nombre">OPERATOR</span>
+                        <span class="arma-tienda-skin">KINGDOM</span>
+                    </div>
+                    <div class="arma-tienda-precio">4700 CRÉDITOS</div>
+                    <div class="arma-tienda-stock">
+                        <span class="stock-disponible">✓ DISPONIBLE</span>
+                    </div>
+                    <div class="arma-tienda-descuento">
+                        <span class="badge-raro">EXCLUSIVO</span>
+                    </div>
+                </div>
+
+                <div class="arma-tienda">
+                    <div class="arma-tienda-header">
+                        <span class="arma-tienda-nombre">CLASSIC</span>
+                        <span class="arma-tienda-skin">ARES</span>
+                    </div>
+                    <div class="arma-tienda-precio">1200 CRÉDITOS</div>
+                    <div class="arma-tienda-stock">
+                        <span class="stock-disponible">✓ DISPONIBLE</span>
+                    </div>
+                    <div class="arma-tienda-descuento">
+                        <span class="badge-desc">-15%</span>
+                    </div>
+                </div>
+
+                <div class="arma-tienda">
+                    <div class="arma-tienda-header">
+                        <span class="arma-tienda-nombre">ODIN</span>
+                        <span class="arma-tienda-skin">REAVER</span>
+                    </div>
+                    <div class="arma-tienda-precio">3200 CRÉDITOS</div>
+                    <div class="arma-tienda-stock">
+                        <span class="stock-disponible">✓ DISPONIBLE</span>
+                    </div>
+                    <div class="arma-tienda-descuento">
+                        <span class="badge-nuevo">NUEVO</span>
+                    </div>
+                </div>
+
+                <div class="arma-tienda">
+                    <div class="arma-tienda-header">
+                        <span class="arma-tienda-nombre">SPECTRE</span>
+                        <span class="arma-tienda-skin">DRAGON</span>
+                    </div>
+                    <div class="arma-tienda-precio">1600 CRÉDITOS</div>
+                    <div class="arma-tienda-stock">
+                        <span class="stock-disponible">✓ DISPONIBLE</span>
+                    </div>
+                    <div class="arma-tienda-descuento">
+                        <span class="badge-desc">-25%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Mapas -->
         <section id="mapas">
-            <h2>Mapas Disponibles</h2>
-            <p>VALORANT cuenta con diversos mapas diseñados para tácticas variadas:</p>
-            
-            <h3>Mapas Actuales:</h3>
-            <ul>
-                <li><strong>Bind:</strong> Mapa simétrico con dos sitios separados</li>
-                <li><strong>Haven:</strong> El único mapa con tres sitios destructibles</li>
-                <li><strong>Split:</strong> Mapa vertical con arquitectura única</li>
-                <li><strong>Ascent:</strong> Inspirado en la arquitectura italiana</li>
-                <li><strong>Icebox:</strong> Base en un glaciar ártico</li>
-                <li><strong>Fracture:</strong> Mapa asiático dividido por un cañón</li>
-                <li><strong>Pearl:</strong> Ciudad submarina futurista</li>
-                <li><strong>Sunset:</strong> Ciudad californiana al atardecer</li>
-            </ul>
+            <h2>MAPAS COMPETITIVOS</h2>
+            <div class="mapas-contenedor">
+                <div class="mapa-card">
+                    <div class="mapa-titulo">HAVEN</div>
+                    <div class="mapa-info">
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Sitios</span>
+                            <span class="mapa-valor">3</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Complejidad</span>
+                            <span class="mapa-valor">ALTA</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Tamaño</span>
+                            <span class="mapa-valor">GRANDE</span>
+                        </div>
+                    </div>
+                    <div class="mapa-descripcion">Mapa único con 3 sitios. Requiere control del mapa y coordinación perfecta.</div>
+                </div>
+
+                <div class="mapa-card">
+                    <div class="mapa-titulo">SPLIT</div>
+                    <div class="mapa-info">
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Sitios</span>
+                            <span class="mapa-valor">2</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Complejidad</span>
+                            <span class="mapa-valor">MEDIA</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Tamaño</span>
+                            <span class="mapa-valor">MEDIANO</span>
+                        </div>
+                    </div>
+                    <div class="mapa-descripcion">Mapa con dos sitios y rotaciones verticales. Ideal para jugadores ágiles.</div>
+                </div>
+
+                <div class="mapa-card">
+                    <div class="mapa-titulo">ASCENT</div>
+                    <div class="mapa-info">
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Sitios</span>
+                            <span class="mapa-valor">2</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Complejidad</span>
+                            <span class="mapa-valor">MEDIA</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Tamaño</span>
+                            <span class="mapa-valor">GRANDE</span>
+                        </div>
+                    </div>
+                    <div class="mapa-descripcion">Mapa simétrico con accesos múltiples. Equilibrado para ambos bandos.</div>
+                </div>
+
+                <div class="mapa-card">
+                    <div class="mapa-titulo">ICEBOX</div>
+                    <div class="mapa-info">
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Sitios</span>
+                            <span class="mapa-valor">2</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Complejidad</span>
+                            <span class="mapa-valor">ALTA</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Tamaño</span>
+                            <span class="mapa-valor">GRANDE</span>
+                        </div>
+                    </div>
+                    <div class="mapa-descripcion">Mapa con alturas y dinámicas únicas. Requiere posicionamiento preciso.</div>
+                </div>
+
+                <div class="mapa-card">
+                    <div class="mapa-titulo">BIND</div>
+                    <div class="mapa-info">
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Sitios</span>
+                            <span class="mapa-valor">2</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Complejidad</span>
+                            <span class="mapa-valor">MEDIA</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Tamaño</span>
+                            <span class="mapa-valor">MEDIANO</span>
+                        </div>
+                    </div>
+                    <div class="mapa-descripcion">Mapa conectado por portales. Estrategias defensivas muy importantes.</div>
+                </div>
+
+                <div class="mapa-card">
+                    <div class="mapa-titulo">PEARL</div>
+                    <div class="mapa-info">
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Sitios</span>
+                            <span class="mapa-valor">2</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Complejidad</span>
+                            <span class="mapa-valor">MEDIA</span>
+                        </div>
+                        <div class="mapa-detalle">
+                            <span class="mapa-label">Tamaño</span>
+                            <span class="mapa-valor">MEDIANO</span>
+                        </div>
+                    </div>
+                    <div class="mapa-descripcion">Mapa submarino con rotaciones rápidas y control de zona crucial.</div>
+                </div>
+            </div>
         </section>
 
-        <section id="contacto">
-            <h2>Contacto e Información</h2>
-            <p><strong>Desarrollador:</strong> Riot Games</p>
-            <p><strong>Plataforma:</strong> PC (Windows)</p>
-            <p><strong>Precio:</strong> Libre para Jugar (F2P)</p>
-            <p><strong>Sitio Oficial:</strong> valorant.com</p>
-            <p><strong>Redes Sociales:</strong> @PlayVALORANT en Twitter, Facebook e Instagram</p>
+        <!-- Sección de Configuración de Hardware -->
+        <section id="config">
+            <h2>OPTIMIZACIÓN DE PERIFÉRICOS</h2>
+            <div class="bloque-info">
+                <h3>Ajustes de Alta Fidelidad</h3>
+                <p>Para maximizar el rendimiento en shooters competitivos, mantener la estabilidad de los cuadros por segundo (FPS) es tan crucial como la respuesta de tus periféricos. Asegúrate de configurar:</p>
+                <ul>
+                    <li><strong>Polling Rate:</strong> Configura tu mouse a una tasa de sondeo alta (1000Hz a 4000Hz si tu hardware lo soporta) para reducir el retraso de entrada (input lag).</li>
+                    <li><strong>Sensibilidad (eDPI):</strong> Mantén un eDPI controlado (Sensibilidad de juego × DPI del mouse) generalmente entre 200 y 400 para un rastreo preciso de la mira.</li>
+                    <li><strong>Aceleración de Windows:</strong> Desactívala activando la opción de "Entrada directa de mouse" (Raw Input Buffer) dentro del juego.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección Meta de Temporada -->
+        <section id="meta">
+            <h2>ESTADO DE META</h2>
+            <div class="bloque-info">
+                <h3>Qué debes priorizar</h3>
+                <p>El meta de Valorant cambia continuamente: adapta roles, utilidades y estilo de juego según el parche y las composiciones del equipo.</p>
+                <ul>
+                    <li><strong>Adaptabilidad:</strong> Domina al menos un agente de cada rol para rotar con confianza según la necesidad del equipo.</li>
+                    <li><strong>Visión y posicionamiento:</strong> Mantén control de mapas con habilidades de información y coloca utility para cortar avances enemigos.</li>
+                    <li><strong>Comunicación:</strong> Prioriza llamadas rápidas y claras sobre jugadas individuales.</li>
+                </ul>
+            </div>
         </section>
     </main>
 
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2026 VALORANT. Desarrollado por Riot Games. Todos los derechos reservados.</p>
+        <p>&copy 2026 Valorant Hub - Proyecto de Práctica Web Estática. Creado de forma independiente.</p>
     </footer>
+
+    <script>
+        // Sistema de Tabs Interactivos
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabName = btn.getAttribute('data-tab');
+                
+                // Remover clase active de todos los botones y contenidos
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Agregar clase active al botón y contenido clickeado
+                btn.classList.add('active');
+                document.getElementById(tabName).classList.add('active');
+            });
+        });
+    </script>
+
 </body>
 </html>
